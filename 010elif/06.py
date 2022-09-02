@@ -1,6 +1,6 @@
-print('')
-name = input('Как вас зовут?')
-surname = input('Как ваша фамилия?')
+print('Здравствуйте, я бот-привратник')
+name = input('Как вас зовут?> ')
+surname = input('Как ваша фамилия?> ')
 
 if name == 'Оливия' and surname == 'Барсукова':
     print('O, bonjour! Comment ça va?  ')

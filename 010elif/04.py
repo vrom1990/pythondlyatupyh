@@ -4,7 +4,7 @@ multiply = num1 * num2
 
 if multiply > 0:
     print('Произведение положительно!')
-elif multiply <0:
+elif multiply < 0:
     print('Произведение отрицательно!')
 else:
     print('Произведение равно нулю')
