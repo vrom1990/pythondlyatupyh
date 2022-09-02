@@ -1,4 +1,5 @@
 numeral = input('Введите цифру: ')
+
 if numeral == '0':
     numeral = 'ноль'
     print(numeral)
