@@ -1,54 +1,57 @@
 import math
 print('Выберите калькулятор, максимум или анекдот')
-comand = input('Введите команду: ')
+command = input('Введите команду: ')
 
 # КАЛЬКУЛЯТОР
 if command == "калькулятор":
-    
-    command = input('Введите команду: ')
-    if command == '+':
+    operation = input('Введите команду: ')
+
+    if operation == '+':
         num1 = float(input('Введите первое слагаемое: '))
         num2 = float(input('Введите второе слагаемое: '))
         print("Сумма:", num1 + num2)
-    elif command == '-':
+    elif operation == '-':
         num1 = float(input('Введите уменьшаемое: '))
         num2 = float(input('Введите вычитаемое: '))
         print("Разность:", num1 - num2)
-    elif command == '/':
+    elif operation == '/':
         num1 = float(input('Введите делимое: '))
         num2 = float(input('Введите делитель: '))
-        print("Частное:", num1 / num2)
-    elif command == '*':
+        if num2 == 0:
+            print("На ноль делить нельзя")
+        else:
+            print("Частное:", num1 / num2)
+    elif operation == '*':
         num1 = float(input('Введите первый множитель: '))
         num2 = float(input('Введите второй множитель: '))
         print("Произведение:", num1 * num2)
-    elif command == 'корень':
+    elif operation == 'корень':
         num = float(input('Введите число: '))
         print("Корень:", math.sqrt(num))
-    elif command == 'степень':
+    elif operation == 'степень':
         num1 = float(input('Введите число: '))
         num2 = float(input('Введите, в какую степень возвести: '))
         print("Степень", num2, "числа", str(num1)+":", num1 ** num2)
     else:
-        print('Неверная команда')
+        print('Неверная операция')
         
 # МАКСИМУМ        
 elif command == "максимум":
     print('Эта подпрограмма ищет максимум из трёх чисел')
-    num1 = float(input('Введите первое число: '))
-    num2 = float(input('Введите первое число: '))
-    num3 = float(input('Введите первое число: '))
+    num1 = int(input("Введите первое число: "))
+    num2 = int(input("Введите второе число: "))
+    num3 = int(input("Введите третье число: "))
 
     if num1 > num2:
         if num1 > num3:
-            print(num1)
+            print("Максимум:", num1)
         else:
-            print(num3)
+            print("Максимум:", num3)
     else:
         if num2 > num3:
-            print(num2)
+            print("Максимум:", num2)
         else:
-            print(num3)
+            print("Максимум:", num3)
 # АНЕКДОТ            
 elif command == "анекдот":
     print('Сел медведь в машину и сгорел')
