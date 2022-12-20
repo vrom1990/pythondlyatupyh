@@ -13,6 +13,19 @@ if num == "1":
     print("Чтобы узнать список подключённых услуг, нажмите 4")
     print("Чтобы подключить или отключить услугу, нажмите 5")
     print("Чтобы вернуться к началу, нажмите 0")
+    num = input("Ввод цифры")
+    if num == "1":
+        pass
+    elif num == "2":
+        pass
+    elif num == "3":
+        pass
+    elif num == "4":
+        pass
+    elif num == "5":
+        pass
+    elif num == "0":
+        pass
 elif num == "2":
     pass
 elif num == "3":
