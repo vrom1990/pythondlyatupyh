@@ -12,5 +12,7 @@ ves = float(input('Введите вес багажа: '))
 if ves > 25:
     print("Ваш вес больше 25")
     print("Доплатите" (ves-25) * 330)
-else:
+    otvet = input("Согласны?")
     
+else:
+    print("Проходите")
