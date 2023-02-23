@@ -6,6 +6,10 @@ if parol == PAROL:
     print("Ваш код: " + code)
     my_code = input("Введите код из СМС")
     if my_code == code:
-        pass
+        moj_palets = input("Успешное сканирование?: ")
+        if moj_palets == "да":
+            print("Успешный вход в систему!")
+        else:
+            print("Неверный отпечаток пальца!")
 else:
     print("Неверный пароль")
