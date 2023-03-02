@@ -10,7 +10,12 @@ m9 = 10
 m10 = 10
 
 if m1+m2+m3 > m4+m5+m6:
-    pass
+    if m4 > m5:
+        pass
+    elif m4 < m5:
+        pass
+    else:
+        pass
 elif m1+m2+m3 < m4+m5+m6:
     pass
 else:
