@@ -20,7 +20,7 @@ elif m1+m2+m3 > m4+m5+m6:
     if m4 < m5:
         print("Четвёртая фальшивая")
     elif m4 > m5:
-        pass
+        print("Пятая фальшивая")
     else:
         pass
 else:
