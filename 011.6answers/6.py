@@ -4,4 +4,8 @@ print("Куда позовёте Ингиборгу?",
 
 vybor = input(": ")
 if vybor == "Пляж":
-    
+    pass
+elif vybor == "ТЦ":
+    pass
+elif vybor == "Центральная площадь":
+    pass
