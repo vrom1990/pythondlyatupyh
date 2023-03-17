@@ -9,6 +9,7 @@ if vybor == "Пляж":
 elif vybor == "ТЦ":
     ochki = ochki + 1
     print("Очки:", ochki)
-    pass
+    print("Здорово, люблю ходить в ТЦ!")
 elif vybor == "Центральная площадь":
-    pass
+    print("Пойдём! Там будет что-то интересное?")
+    
