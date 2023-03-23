@@ -15,4 +15,11 @@ elif vybor == "Центральная площадь":
     print("Что ответить:","-Там будут танцы",
           "-Там будет ярмарка", "-Ничего", sep = "\n- ")
     vybor = input(": ")
-    if vybor 
+    if vybor == "Там будут танцы":
+        ochki = ochki + 1
+        print("Здорово! Поучаствуем?")
+        vybor == input("да или нет?")
+        if vybor == "да":
+            ochki = ochki + 1
+        else:
+            ochki = ochki - 1
