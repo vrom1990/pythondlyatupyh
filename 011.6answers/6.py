@@ -23,3 +23,4 @@ elif vybor == "Центральная площадь":
             ochki = ochki + 1
         else:
             ochki = ochki - 1
+    print("Вы пришли на площадь. Чем займётесь?")
