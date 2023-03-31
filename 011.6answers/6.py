@@ -7,6 +7,7 @@ vybor = input(": ")
 if vybor == "Пляж":
     print("В такое время года? Ну а почему бы и нет")
     print("Вы пришли на Пляж. Чем займётесь?")
+    print("")
 elif vybor == "ТЦ":
     ochki = ochki + 1
     print("Очки:", ochki)
