@@ -14,7 +14,7 @@ if vybor == "Пляж":
     elif vybor == "поискать камушки и ракушки":
         pass
     elif vybor == "пофотографироваться на фоне моря":
-        pass
+        ochki = ochki + 1
 elif vybor == "ТЦ":
     ochki = ochki + 1
     print("Очки:", ochki)
