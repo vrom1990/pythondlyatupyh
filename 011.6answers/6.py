@@ -25,9 +25,9 @@ elif vybor == "ТЦ":
     vybor = input(: )
     if vybor == "Пройдёмся по магазинам":
         print("Ок")
-        ochki = ochki + 1
+        ochki = ochki + 2
     elif vybor == "Поучаствуем в новых аттракционах":
-        pass
+        ochki = ochki + 1
 elif vybor == "Центральная площадь":
     print("Пойдём! Там будет что-то интересное?")
     print("Что ответить:","-Там будут танцы",
