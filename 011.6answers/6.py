@@ -15,6 +15,7 @@ if vybor == "Пляж":
         pass
     elif vybor == "пофотографироваться на фоне моря":
         ochki = ochki + 1
+        print("А как именно фотографироваться будем?")
 elif vybor == "ТЦ":
     ochki = ochki + 1
     print("Очки:", ochki)
