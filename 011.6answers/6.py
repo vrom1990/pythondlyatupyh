@@ -11,8 +11,8 @@ if vybor == "Пляж":
     vybor = input(": ")
     if vybor == "посмотреть на море":
         print("А какие условия будут?")
-        print("Варианты ответа: ")
-        vybor = input()
+        print("Варианты ответа: ", sep="\n")
+        vybor = input(")
     elif vybor == "поискать камушки и ракушки":
         pass
     elif vybor == "пофотографироваться на фоне моря":
