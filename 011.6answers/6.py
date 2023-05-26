@@ -18,6 +18,7 @@ if vybor == "Пляж":
               sep="\n")
         vybor = input(": ")
         if vybor == "1":
+            ochki = ochki + 1
             print("Ого")
     elif vybor == "поискать камушки и ракушки":
         pass
