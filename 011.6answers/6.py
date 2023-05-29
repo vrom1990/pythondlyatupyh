@@ -18,8 +18,10 @@ if vybor == "Пляж":
               sep="\n")
         vybor = input(": ")
         if vybor == "1":
-            ochki = ochki + 1
+            ochki = ochki + 2
             print("Ого")
+        elif vybor == "2":
+            ochki = ochki + 1
     elif vybor == "поискать камушки и ракушки":
         pass
     elif vybor == "пофотографироваться на фоне моря":
