@@ -23,9 +23,9 @@ if vybor == "1":
         elif vybor == "2":
             ochki = ochki + 1
             print()
-    elif vybor == "поискать камушки и ракушки":
+    elif vybor == "2":
         pass
-    elif vybor == "пофотографироваться на фоне моря":
+    elif vybor == "3":
         ochki = ochki + 1
         print("А как именно фотографироваться будем?")
 elif vybor == "2":
