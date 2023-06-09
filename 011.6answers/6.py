@@ -22,7 +22,7 @@ if vybor == "1":
             print("Ого, ну пойдём")
         elif vybor == "2":
             ochki = ochki + 1
-            print()
+            print("Миленько!")
     elif vybor == "2":
         pass
     elif vybor == "3":
