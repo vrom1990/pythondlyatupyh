@@ -24,7 +24,7 @@ if vybor == "1":
             ochki = ochki + 1
             print("Миленько!")
     elif vybor == "2":
-        pass
+        print("А если мы так устанем?")
     elif vybor == "3":
         ochki = ochki + 1
         print("А как именно фотографироваться будем?")
