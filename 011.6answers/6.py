@@ -18,11 +18,13 @@ if vybor == "1":
               sep="\n")
         vybor = input(": ")
         if vybor == "1":
-            ochki = ochki + 2
-            print("Ого, ну пойдём")
+            print("Ок, ну пойдём")
         elif vybor == "2":
             ochki = ochki + 1
             print("Миленько!")
+        elif vybor == "3":
+            print("Ого! Давай, здорово!")
+            ochki = ochki + 2
     elif vybor == "2":
         print("А если мы так устанем?")
     elif vybor == "3":
