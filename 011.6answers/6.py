@@ -19,6 +19,7 @@ if vybor == "1":
         vybor = input(": ")
         if vybor == "1":
             print("Ок, ну пойдём")
+            ochki = ochki - 1
         elif vybor == "2":
             ochki = ochki + 1
             print("Миленько!")
