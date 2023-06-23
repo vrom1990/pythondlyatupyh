@@ -20,6 +20,8 @@ if vybor == "1":
         if vybor == "1":
             print("Ок, ну пойдём")
             ochki = ochki - 1
+            print("Вы приходите на пляж")
+            print("Начинает идти дождь")
         elif vybor == "2":
             ochki = ochki + 1
             print("Миленько!")
