@@ -18,22 +18,22 @@ if vybor == "1":
               sep="\n")
         vybor = input(": ")
         if vybor == "1":
-            print("Ок, ну пойдём")
+            print("Ингеборга: Ок, ну пойдём")
             ochki = ochki - 1
             print("Вы приходите на пляж")
             print("Смотрите на море")
             print("Через полчаса она говорит, что захотела поесть")
         elif vybor == "2":
             ochki = ochki + 1
-            print("Миленько!")
+            print("Ингеборга: Миленько!")
         elif vybor == "3":
-            print("Ого! Давай, здорово!")
+            print("Ингеборга: Ого! Давай, здорово!")
             ochki = ochki + 2
     elif vybor == "2":
-        print("А если мы так устанем?")
+        print("Ингеборга: А если мы так устанем?")
     elif vybor == "3":
         ochki = ochki + 1
-        print("А как именно фотографироваться будем?")
+        print("Ингеборга: А как именно фотографироваться будем?")
 elif vybor == "2":
     ochki = ochki + 1
     print("Очки:", ochki)
