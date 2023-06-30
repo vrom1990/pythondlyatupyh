@@ -30,9 +30,10 @@ if vybor == "1":
               sep="\n")
             vybor = input(":")
             if vybor == "1":
-                print("Ингеборга: у пока")
+                print("Ингеборга: Ну пока")
+                ochki = ochki - 1
             elif == "2":
-                print("")
+                print("Ингеборга: Пошли")
             
         elif vybor == "2":
             ochki = ochki + 1
