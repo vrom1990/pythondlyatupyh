@@ -32,7 +32,7 @@ if vybor == "1":
             if vybor == "1":
                 print("Ингеборга: Ну пока")
                 ochki = ochki - 1
-            elif == "2":
+            elif vybor == "2":
                 print("Ингеборга: Пошли")
             
         elif vybor == "2":
