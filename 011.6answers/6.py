@@ -34,6 +34,8 @@ if vybor == "1":
                 ochki = ochki - 1
             elif vybor == "2":
                 print("Ингеборга: Пошли")
+                print("Вы приходите в кафе и едите")
+                print("Ингеборга: Ладно, пока, мне пора")
             
         elif vybor == "2":
             ochki = ochki + 1
