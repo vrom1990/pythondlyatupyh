@@ -20,6 +20,7 @@ if vybor == "1":
         if vybor == "1":
             print("Ингеборга: Ок, ну пойдём")
             ochki = ochki - 1
+            print("Очки:", ochki)
             print("Вы приходите на пляж")
             print("Смотрите на море")
             print("Проходит полчаса")
@@ -32,6 +33,7 @@ if vybor == "1":
             if vybor == "1":
                 print("Ингеборга: Ну пока")
                 ochki = ochki - 1
+                print("Очки:", ochki)
             elif vybor == "2":
                 print("Ингеборга: Пошли")
                 print("Вы приходите в кафе и едите")
@@ -39,14 +41,17 @@ if vybor == "1":
             
         elif vybor == "2":
             ochki = ochki + 1
+            print("Очки:", ochki)
             print("Ингеборга: Миленько!")
         elif vybor == "3":
             print("Ингеборга: Ого! Давай, здорово!")
             ochki = ochki + 2
+            print("Очки:", ochki)
     elif vybor == "2":
         print("Ингеборга: А если мы так устанем?")
     elif vybor == "3":
         ochki = ochki + 1
+        print("Очки:", ochki)
         print("Ингеборга: А как именно фотографироваться будем?")
 elif vybor == "2":
     ochki = ochki + 1
