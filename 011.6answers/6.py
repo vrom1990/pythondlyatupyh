@@ -50,7 +50,13 @@ if vybor == "1":
               "2: Похоже на бабочку!",
               "3: Красивое, но ты лучше",   
               sep="\n")
-            vybor = input(":")    
+            vybor = input(":")
+            if vybor == "1":
+                pass
+            elif vybor == "2":
+                pass
+            elif vybor == "3":
+                pass
         elif vybor == "3":
             print("Ингеборга: Ого! Давай, здорово!")
             ochki = ochki + 2
