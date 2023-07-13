@@ -52,7 +52,7 @@ if vybor == "1":
               sep="\n")
             vybor = input(":")
             if vybor == "1":
-                pass
+                ochki = ochki - 1
             elif vybor == "2":
                 pass
             elif vybor == "3":
