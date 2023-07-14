@@ -53,6 +53,7 @@ if vybor == "1":
             vybor = input(":")
             if vybor == "1":
                 ochki = ochki - 1
+                print("Ингеборга: ...")
             elif vybor == "2":
                 pass
             elif vybor == "3":
