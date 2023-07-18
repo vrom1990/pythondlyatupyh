@@ -55,7 +55,8 @@ if vybor == "1":
                 ochki = ochki - 1
                 print("Ингеборга: ...")
             elif vybor == "2":
-                pass
+                ochki = ochki + 1
+                print("Ингеборга: И правда похоже!")
             elif vybor == "3":
                 pass
         elif vybor == "3":
