@@ -58,7 +58,8 @@ if vybor == "1":
                 ochki = ochki + 1
                 print("Ингеборга: И правда похоже!")
             elif vybor == "3":
-                pass
+                ochki = ochki + 2
+                print("Ингеборга: Ох, прекрати, ты меня смущаешь :-)")
         elif vybor == "3":
             print("Ингеборга: Ого! Давай, здорово!")
             ochki = ochki + 2
