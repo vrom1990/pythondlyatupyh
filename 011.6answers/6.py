@@ -60,6 +60,7 @@ if vybor == "1":
             elif vybor == "3":
                 ochki = ochki + 2
                 print("Ингеборга: Ох, прекрати, ты меня смущаешь :-)")
+            print("Прошло полчаса")    
         elif vybor == "3":
             print("Ингеборга: Ого! Давай, здорово!")
             ochki = ochki + 2
