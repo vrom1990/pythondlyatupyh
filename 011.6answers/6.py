@@ -68,11 +68,11 @@ if vybor == "1":
               "3: Давай, а потом покажу тебе рядом тут отличную скалу для фото",   
               sep="\n")
             if vybor == "1":
-                pass
+                ochki = ochki + 1
             elif vybor == "2":
                 pass
             elif vybor == "3":
-                pass
+                ochki = ochki + 2
             #здесь
         elif vybor == "3":
             print("Ингеборга: Ого! Давай, здорово!")
