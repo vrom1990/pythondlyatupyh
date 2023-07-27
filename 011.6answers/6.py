@@ -70,7 +70,7 @@ if vybor == "1":
             if vybor == "1":
                 ochki = ochki + 1
             elif vybor == "2":
-                pass
+                print("Ингеборга: ладно...")
             elif vybor == "3":
                 ochki = ochki + 2
             #здесь
