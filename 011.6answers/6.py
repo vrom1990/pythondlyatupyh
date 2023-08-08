@@ -69,6 +69,7 @@ if vybor == "1":
               sep="\n")
             if vybor == "1":
                 ochki = ochki + 1
+                print("Вы фотографируетесь")
             elif vybor == "2":
                 print("Ингеборга: ладно...")
             elif vybor == "3":
