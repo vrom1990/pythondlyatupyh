@@ -122,6 +122,10 @@ elif vybor == "3":
             ochki = ochki + 1
         else:
             ochki = ochki - 1
+    elif vybor == "2":
+        pass
+    elif vybor == "3":
+        pass
     print("Вы пришли на площадь. Чем займётесь?")
     print("Посидеть на лавочке")
     
